@@ -8,7 +8,7 @@ if brew list --formula | grep -q "^proctools\$"; then
 else
     echo "proctools is not installed. Running installation through brew..."
     brew install proctools
-    echo "Please run this script again."
+    echo "=== Please run this script again. ==="
     exit 1
 fi
 
